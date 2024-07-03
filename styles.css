@@ -9,7 +9,7 @@
 header {
   width: 100%;
 }
-.day{
+.day {
   color: #353535;
   margin-right: 15px;
 }
@@ -23,7 +23,6 @@ nav {
   position: fixed;
   width: 100%;
   background: white;
-
 }
 nav h2 {
   color: #353535;
@@ -128,13 +127,41 @@ section h1 {
   display: inline-block;
   font-size: 12px;
 }
+footer {
+  background: black;
+  text-align: center;
+  color: white;
+  padding: 80px 0;
+}
+.border {
+  border-top: 1px solid grey;
+  position: relative;
+}
+.small-div {
+  position: absolute;
+  top: -12px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transform: translateX(-50%);
+  background: black;
+  width: 200px;
+  text-align: center;
+}
+.social{
+  padding-top: 20px;
+}
+.social small{
+  display: block;
+  color: grey;
+  margin: 10px 0;
+}
 
 @media only screen and (max-width: 760px) {
-  .container2{
-  margin-top: 80px;
-}
-  nav{
-  margin-bottom: 500px;
+  .container2 {
+    margin-top: 80px;
+  }
+  nav {
+    margin-bottom: 500px;
   }
   .img-div {
     flex-basis: 100%;

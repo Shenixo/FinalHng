@@ -21,7 +21,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const date = new Date();
     // return days[date.getDay()];
     const day = date.getDay();
-    const dayy = days[2];
+    const dayy = days[day];
     return dayy;
   }
   const day = getDayOfWeek();
