@@ -1,0 +1,213 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  transition: 0.5s;
+}
+
+header {
+  width: 100%;
+}
+.day{
+  color: #353535;
+  margin-right: 15px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 6%;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  width: 100%;
+  background: white;
+
+}
+nav h2 {
+  color: #353535;
+}
+nav h2 span {
+  display: inline-block;
+  background: #e34a03;
+  width: 6px;
+  height: 6px;
+  border: 1px solid black;
+  border-bottom: 2px solid black;
+  border-right: 2px solid black;
+  border-radius: 50%;
+  margin-left: -3px;
+}
+
+/* start from here */
+.img-div img {
+  width: 100%;
+  border-radius: 50%;
+}
+.container {
+  padding: 8% 6% 0;
+}
+.container2 {
+  padding: 0 100px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.head {
+  font-size: 4vh;
+  font-weight: 500;
+}
+.img-div {
+  margin-bottom: 30px;
+  flex-basis: 25%;
+}
+.text {
+  flex-basis: 70%;
+}
+.container2 .img-div img {
+  border-radius: 30px;
+}
+.text h1 span {
+  color: #e34a03;
+}
+.text h1 {
+  color: #353535;
+  font-weight: 500;
+}
+section {
+  padding: 10px 0;
+  background: rgb(252, 221, 221);
+  margin: 180px 0 0;
+  border-top-left-radius: 150px;
+  border-top-right-radius: 150px;
+}
+
+section h1 {
+  text-align: center;
+  font-family: 100;
+}
+.container-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+.container-row .left-div {
+  flex-basis: 20%;
+}
+.container-row .right-div {
+  flex-basis: 74%;
+  font-weight: 300;
+}
+.left-div img {
+  width: 100%;
+}
+.title {
+  line-height: 25px;
+  margin-bottom: 20px;
+  font-size: 3vh;
+  font-weight: 500;
+}
+.links {
+  margin-top: 20px;
+  width: 100%;
+  padding-right: 100px;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.links div a {
+  margin: 0 5px;
+}
+.email {
+  font-size: 14px;
+}
+.links a {
+  display: inline-block;
+  font-size: 12px;
+}
+
+@media only screen and (max-width: 760px) {
+  .container2{
+  margin-top: 80px;
+}
+  nav{
+  margin-bottom: 500px;
+  }
+  .img-div {
+    flex-basis: 100%;
+  }
+  .text {
+    flex-basis: 100%;
+  }
+  .links {
+    display: block;
+    width: 100%;
+    padding-right: 20px;
+  }
+  .img-div img {
+    width: 100%;
+  }
+  .text h1 {
+    font-size: 20px;
+  }
+  section {
+    margin-top: 150px;
+  }
+  .head {
+    font-size: 3vh;
+    margin: 30px 0;
+  }
+  .title {
+    font-size: 2.5vh;
+    line-height: 18px;
+  }
+  .right-div ul li {
+    font-size: 14px;
+  }
+  .container-row {
+    margin: 50px 0;
+  }
+
+  .container-row .left-div {
+    flex-basis: 30%;
+  }
+  .container-row .right-div {
+    flex-basis: 64%;
+  }
+}
+@media only screen and (max-width: 640px) {
+  header {
+    margin-bottom: 100px;
+  }
+}
+@media only screen and (max-width: 620px) {
+  header {
+    margin-bottom: -50px;
+  }
+  section {
+    margin-top: 180px;
+  }
+  .container2 {
+    padding: 0 40px;
+  }
+  .container-row {
+    align-items: flex-start;
+  }
+  .container-row ul li {
+    font-size: 12px;
+  }
+  .title {
+    font-size: 16px;
+    line-height: 18px;
+    margin-bottom: 10px;
+  }
+  .container-row .left-div {
+    flex-basis: 20%;
+  }
+  .container-row .right-div {
+    flex-basis: 70%;
+  }
+}
