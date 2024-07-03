@@ -9,7 +9,8 @@
 header {
   width: 100%;
 }
-.day {
+.day,
+time {
   color: #353535;
   margin-right: 15px;
 }
@@ -147,10 +148,10 @@ footer {
   width: 200px;
   text-align: center;
 }
-.social{
+.social {
   padding-top: 20px;
 }
-.social small{
+.social small {
   display: block;
   color: grey;
   margin: 10px 0;
@@ -211,6 +212,15 @@ footer {
   }
 }
 @media only screen and (max-width: 620px) {
+  .day,
+  .time {
+    color: #353535;
+    margin-right: 10px;
+    font-size: 13px;
+  }
+  .dispName {
+    font-size: 23px;
+  }
   header {
     margin-bottom: -50px;
   }
